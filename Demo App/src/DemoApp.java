@@ -11,5 +11,9 @@ public class DemoApp {
          String name="Srinivas";
          int count=name.toUpperCase().length();
          System.out.println("lengh of The String is ::"+count);
+         
+          StringBuffer sb = new StringBuffer("viratkohli");
+          int length =sb.append("erd").reverse().length();
+          System.out.println(length);
 	}
 }
